@@ -1,7 +1,7 @@
 disallow-focused-specs
 ======================
 
-Tired of commit messages like "Remove @focus."? Consider to add this git hook
+Tired of commit messages like "Remove @focus."? Consider adding this git hook
 into your repository to setup git to warn you about committing focused specs or
 cucumber scenarios.
 
