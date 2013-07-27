@@ -9,7 +9,7 @@ Installation
 ------------
 
 	% cd your-repository-root
-	% curl -o .git/hooks/pre-commit https://github.com/hron/disallow-focused-git-hook/raw/master/disallow-focused-specs
+	% curl -o .git/hooks/pre-commit https://raw.github.com/hron/disallow-focused-git-hook/master/disallow-focused-specs
 
 That's it!
 
