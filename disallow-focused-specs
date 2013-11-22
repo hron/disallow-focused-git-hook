@@ -2,7 +2,7 @@
 
 export focus_matched=0
 
-if git grep --cached -n -E "^\s+(it|describe).*(focus:|:focus\s*=>)\s*true" -- '*_spec.rb';
+if git grep --cached -n -E "^\s+(it|describe).*((focus:|:focus\s*=>)\s*true)|(:focus)" -- '*_spec.rb';
 then
     echo "It seems you left focused specs. You should remove focus tags.";
     focus_matched=1
